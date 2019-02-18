@@ -30,7 +30,7 @@ pre_season_batter <- pre_season_batter %>%
 
 pre_season_batter %>% 
   transmute(year_born,
-            )ss
+            )
 
 # start_year = 데뷔년도(데이터에 처음 등장한 year), n_year = 해당 연도의 연차(연도 기준)
 pre_season_batter <- pre_season_batter %>%
